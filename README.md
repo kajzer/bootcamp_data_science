@@ -6,9 +6,7 @@ Link: **[Refactor - OOP and linear regression](./Week_01/Refactor_OOP_and_linear
 Implemented class with inheritance, simple abstract factory design pattern, calss method, static method, class variable, dunder methods, and property. Class has a simple linear reggresion model. Earlier version can be found under [](./Week_01/class_and_linear_regression.ipynb)
 
 Link: **[Co-variance, correlation, std deviation](./Week_01/Covariance_Pearsons_correlation_Standard_deviation.ipynb)**  
-Implemented functions returning co-variance, Pearson's correlation and standard deviation
-
-create_list_of_users_and_plot
+Implemented functions returning co-variance, Pearson's correlation and standard deviation. Rendered equations using Latex
 
 Link: **[Create plot with matplotlib](./Week_01/create_list_of_users_and_plot.ipynb)**  
 Plot garaph from two lists
@@ -24,3 +22,7 @@ Access terminal functions and variables from within jupyter notebooks
 
 Link: **[list comprehensions](./Week_01/zadanie6.py)**  
 Simple list comprehension
+
+## Additional scripts in python
+
+More scripts in python can be found **[here](https://github.com/kajzer/python_scripts_training)**
