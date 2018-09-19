@@ -1,1 +1,1 @@
-# Bootcamp Data Science 15.09.2018
+# Bootcamp Data Science
