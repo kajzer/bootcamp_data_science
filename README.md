@@ -5,7 +5,7 @@
 Link: **[Flask API Endpoint](./Week_02/flask_api.py)**  
 Implement simple API with flask and sqlalchemy
 
-Link: **[](./Week_02/Parse_syslog.ipynb)**  
+Link: **[Class for parsing error logs](./Week_02/Parse_syslog.ipynb)**  
 Jupyter notebook with class to parse and ad error logs to DB using sqlalchemy.
 
 ## Week 1 Projects
