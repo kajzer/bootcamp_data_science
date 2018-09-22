@@ -1,9 +1,17 @@
 # Bootcamp Data Science
 
+## Week 2 Projects
+
+Link: **[Flask API Endpoint](./Week_02/flask_api.py)**  
+Implement simple API with flask and sqlalchemy
+
+Link: **[](./Week_02/Parse_syslog.ipynb)**  
+Jupyter notebook with class to parse and ad error logs to DB using sqlalchemy.
+
 ## Week 1 Projects
 
 Link: **[Refactor - OOP and linear regression](./Week_01/Refactor_OOP_and_linear_regression.ipynb)**  
-Implemented class with inheritance, simple abstract factory design pattern, calss method, static method, class variable, dunder methods, and property. Class has a simple linear reggresion model. Earlier version can be found under [](./Week_01/class_and_linear_regression.ipynb)
+Implemented class with inheritance, simple abstract factory design pattern, calss method, static method, class variable, dunder methods, and property. Class has a simple linear reggresion model. Earlier version can be found under [>>>](./Week_01/class_and_linear_regression.ipynb)
 
 Link: **[Co-variance, correlation, std deviation](./Week_01/Covariance_Pearsons_correlation_Standard_deviation.ipynb)**  
 Implemented functions returning co-variance, Pearson's correlation and standard deviation. Rendered equations using Latex
