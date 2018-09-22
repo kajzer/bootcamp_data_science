@@ -32,12 +32,17 @@ session = DBSession()
 some_error = session.query(ErrorLog).first()
 err_dict = dict()
 js = { 'errors': [] }
+count = 0
 for err in session.query(ErrorLog).all():
 #   print(f'{err.error_date}: {err.error_type} - {err.error_name}')
     js['errors'].append({'date': str(err.error_date),'type': err.error_type, 'name': err.error_name})
-
+    count += 1
 
 @app.route("/")
 def hello():
     return Response(json.dumps(js),  mimetype='application/json')
+
+@app.route("/statistics")
+def stats():
+    return 'There are {} error(s) in the db'.format(count)
     
