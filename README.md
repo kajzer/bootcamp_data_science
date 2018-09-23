@@ -8,6 +8,9 @@ Implement simple API with flask and sqlalchemy
 Link: **[Class for parsing error logs](./Week_02/Parse_syslog.ipynb)**  
 Jupyter notebook with class to parse and ad error logs to DB using sqlalchemy.
 
+Link: **[Methods for db manipulation with ssqlalchemy](./Week_02/PostgreSQLpython.ipynb)**  
+Few methods for DB manipulation using PostgreSQL
+
 ## Week 1 Projects
 
 Link: **[Refactor - OOP and linear regression](./Week_01/Refactor_OOP_and_linear_regression.ipynb)**  
