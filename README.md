@@ -4,7 +4,8 @@
 
 Link: **[Flask API Endpoint](./Week_02/flask_api.py)**  
 Implement simple API with flask and sqlalchemy. To run app:
-```
+
+```python
 FLASK_APP=flask_api.py flask run
 ```
 
@@ -36,6 +37,11 @@ Access terminal functions and variables from within jupyter notebooks
 
 Link: **[list comprehensions](./Week_01/zadanie6.py)**  
 Simple list comprehension
+
+## Math
+
+Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)
+Variation, Standard Deviation - [to ipynb](./Additional/Math/standard_deviation_variance.ipynb)
 
 ## Additional scripts in python
 
