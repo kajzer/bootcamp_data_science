@@ -40,8 +40,11 @@ Simple list comprehension
 
 ## Math
 
-Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)
+Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)  
+
 Variation, Standard Deviation - [to ipynb](./Additional/Math/standard_deviation_variance.ipynb)
+
+Common data distributions - [to ipynb](./Additional/Math/common_data_distributions.ipynb)
 
 ## Additional scripts in python
 
