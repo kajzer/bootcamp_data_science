@@ -38,6 +38,16 @@ Access terminal functions and variables from within jupyter notebooks
 Link: **[list comprehensions](./Week_01/zadanie6.py)**  
 Simple list comprehension
 
+## NumPy
+
+[Basic info about NumPy](./Additional/Numpy/numpy_arrays.ipynb)
+
+[Info about NumPy](./Additional/Numpy/dc_numpy.ipynb)
+
+[Subseting NumPy arrays](./Additional/Numpy/numpy_subseting.ipynb)
+
+[Operations on NumPy arrays](./Additional/Numpy/numpy_operations.ipynb)
+
 ## Math
 
 Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)  
@@ -45,6 +55,10 @@ Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)
 Variation, Standard Deviation - [to ipynb](./Additional/Math/standard_deviation_variance.ipynb)
 
 Common data distributions - [to ipynb](./Additional/Math/common_data_distributions.ipynb)
+
+## Ploting
+
+[Ploting from remote source](./Additional/Ploting/remote_url_plot_df.ipynb)
 
 ## Additional scripts in python
 
