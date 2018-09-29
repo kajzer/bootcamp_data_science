@@ -58,6 +58,8 @@ Variation, Standard Deviation - [to ipynb](./Additional/Math/standard_deviation_
 
 Common data distributions - [to ipynb](./Additional/Math/common_data_distributions.ipynb)
 
+Percentiles and moments - [to ipynb](./Additional/Math/percentiles_and_moments.ipynb)
+
 ## Ploting
 
 [Ploting from remote source](./Additional/Ploting/Matplotlib/remote_url_plot_df.ipynb)
