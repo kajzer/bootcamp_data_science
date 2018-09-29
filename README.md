@@ -48,6 +48,8 @@ Simple list comprehension
 
 [Operations on NumPy arrays](./Additional/Numpy/numpy_operations.ipynb)
 
+[spliting, deep copies, casting, ix_](./Additional/Numpy/spliting_copeis_casting.ipynb)
+
 ## Math
 
 Mean, median, mode - [to ipynb](./Additional/Math/mean_median_mode.ipynb)  
