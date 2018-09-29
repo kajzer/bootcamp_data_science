@@ -58,7 +58,7 @@ Common data distributions - [to ipynb](./Additional/Math/common_data_distributio
 
 ## Ploting
 
-[Ploting from remote source](./Additional/Ploting/remote_url_plot_df.ipynb)
+[Ploting from remote source](./Additional/Ploting/Matplotlib/remote_url_plot_df.ipynb)
 
 ## Additional scripts in python
 
