@@ -1,5 +1,10 @@
 # Bootcamp Data Science
 
+## Week 3 Projects
+
+Link: **[Numpy arrays excercises](./Week_03/exercises_numpy.ipynb)**  
+Few excercises with numpy and some linear regresion.
+
 ## Week 2 Projects
 
 Link: **[Flask API Endpoint](./Week_02/flask_api.py)**  
@@ -63,6 +68,9 @@ Percentiles and moments - [to ipynb](./Additional/Math/percentiles_and_moments.i
 ## Ploting
 
 [Ploting from remote source](./Additional/Ploting/Matplotlib/remote_url_plot_df.ipynb)
+
+[Plot types](./Additional/Ploting/Matplotlib/plot_types_matplotlib.ipynb)
+
 
 ## Additional scripts in python
 
