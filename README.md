@@ -71,7 +71,6 @@ Percentiles and moments - [to ipynb](./Additional/Math/percentiles_and_moments.i
 
 [Plot types](./Additional/Ploting/Matplotlib/plot_types_matplotlib.ipynb)
 
-
 ## Additional scripts in python
 
 More scripts in python can be found **[here](https://github.com/kajzer/python_scripts_training)**
