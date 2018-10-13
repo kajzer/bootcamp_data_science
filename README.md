@@ -84,6 +84,8 @@ Simple list comprehension
 
 [Plot types](./Additional/Ploting/Matplotlib/plot_types_matplotlib.ipynb)
 
+![Simple plot](./Additional/Ploting/Matplotlib/myplot.png)
+
 ## Additional scripts in python
 
 More scripts in python can be found **[here](https://github.com/kajzer/python_scripts_training)**  
