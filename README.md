@@ -45,7 +45,13 @@ Simple list comprehension
 
 ## Pandas
 
-[Basic info about NumPy](./Additional/Pandas/combining_data.ipynb)
+[Cleaning and ploting Gapminder data](./Additional/Pandas/cleaning_gapminder.ipynb)
+
+[Cleaning data for analysis](./Additional/Pandas/cleaning_data_analysis.ipynb)
+
+[Cleaning data](./Additional/Pandas/cleaning_data.ipynb)
+
+[Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
 ## NumPy
 
