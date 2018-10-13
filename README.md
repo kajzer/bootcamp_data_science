@@ -47,6 +47,9 @@ Simple list comprehension
 
 [Cleaning and ploting Gapminder data](./Additional/Pandas/cleaning_gapminder.ipynb)
 
+![1800 - 1899 scatter plot](./Additional/Pandas/1800_1899.png)
+![life expectancy](./Additional/Pandas/life_expecctancy.png)
+
 [Cleaning data for analysis](./Additional/Pandas/cleaning_data_analysis.ipynb)
 
 [Cleaning data](./Additional/Pandas/cleaning_data.ipynb)
