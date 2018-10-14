@@ -56,6 +56,12 @@ Simple list comprehension
 
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
+[Pandas foundations](./Additional/Pandas/pandas_intro.ipynb)
+
+![temperature and dew point as subplots](./Additional/Pandas/temp_dew_sub.png)
+![temp and dew point](./Additional/Pandas/temp_dew.png)
+
+
 ## NumPy
 
 [Basic info about NumPy](./Additional/Numpy/numpy_arrays.ipynb)
