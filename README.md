@@ -45,6 +45,14 @@ Simple list comprehension
 
 ## Pandas
 
+[Exploratory data analysis](./Additional/Pandas/exp_data_analysis.ipynb)
+
+![Fuel efficiency](./Additional/Pandas/Fuel_efficiency.png)
+![Box plot of mpg](./Additional/Pandas/box_plot_auto.png)
+![Life expectancy box plot](./Additional/Pandas/life_exp_box.png)
+![PDF and CDF](./Additional/Pandas/pdf_cdf.png)
+![stock prices](./Additional/Pandas/stock_prices.png)
+
 [Cleaning and ploting Gapminder data](./Additional/Pandas/cleaning_gapminder.ipynb)
 
 ![1800 - 1899 scatter plot](./Additional/Pandas/1800_1899.png)
@@ -60,7 +68,6 @@ Simple list comprehension
 
 ![temperature and dew point as subplots](./Additional/Pandas/temp_dew_sub.png)
 ![temp and dew point](./Additional/Pandas/temp_dew.png)
-
 
 ## NumPy
 
