@@ -45,6 +45,10 @@ Simple list comprehension
 
 ## Pandas
 
+[Austin weather dataset manipulation](./Additional/Pandas/austin_weather_dataset.ipynb)
+
+![Temperature vs Visibility](./Additional/Pandas/temp_visibility.png)
+
 [Pandas time series](./Additional/Pandas/pandas_time_series.ipynb)
 
 ![Smoothed out temperatures in Austin](./Additional/Pandas/smoothed.png)
