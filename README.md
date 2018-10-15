@@ -91,6 +91,8 @@ Simple list comprehension
 
 ## Math
 
+[Covariance and Correlation](./Additional/Math/mean_median_mode.ipynb)
+
 [Mean, median, mode](./Additional/Math/mean_median_mode.ipynb)  
 
 [Variation, Standard Deviation](./Additional/Math/standard_deviation_variance.ipynb)
