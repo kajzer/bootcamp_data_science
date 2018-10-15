@@ -45,6 +45,10 @@ Simple list comprehension
 
 ## Pandas
 
+[Pandas time series](./Additional/Pandas/pandas_time_series.ipynb)
+
+![Smoothed out temperatures in Austin](./Additional/Pandas/smoothed.png)
+
 [Exploratory data analysis](./Additional/Pandas/exp_data_analysis.ipynb)
 
 ![Fuel efficiency](./Additional/Pandas/Fuel_efficiency.png)
