@@ -91,7 +91,7 @@ Simple list comprehension
 
 ## Math
 
-[Covariance and Correlation](./Additional/Math/mean_median_mode.ipynb)
+[Covariance and Correlation](./Additional/Math/cov_corr.ipynb)
 
 [Mean, median, mode](./Additional/Math/mean_median_mode.ipynb)  
 
