@@ -72,6 +72,8 @@ Simple list comprehension
 
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
+[Advanced indexing](./Additional/Pandas/adv_indexing.ipynb)
+
 [Extracting and transforming data](./Additional/Pandas/extracting_transforming_data.ipynb)
 
 [Pandas foundations](./Additional/Pandas/pandas_intro.ipynb)
