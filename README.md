@@ -72,6 +72,8 @@ Simple list comprehension
 
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
+[Extracting and transforming data](./Additional/Pandas/extracting_transforming_data.ipynb)
+
 [Pandas foundations](./Additional/Pandas/pandas_intro.ipynb)
 
 ![temperature and dew point as subplots](./Additional/Pandas/temp_dew_sub.png)
