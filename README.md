@@ -72,6 +72,8 @@ Simple list comprehension
 
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
+[Rearrange and reshape data in pandas](./Additional/Pandas/rearrange_reshape_data.ipynb)
+
 [Advanced indexing](./Additional/Pandas/adv_indexing.ipynb)
 
 [Extracting and transforming data](./Additional/Pandas/extracting_transforming_data.ipynb)
