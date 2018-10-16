@@ -45,6 +45,8 @@ Simple list comprehension
 
 ## Pandas
 
+[Grouping data](./Additional/Pandas/grouping_data.ipynb)
+
 [Austin weather dataset manipulation](./Additional/Pandas/austin_weather_dataset.ipynb)
 
 ![Temperature vs Visibility](./Additional/Pandas/temp_visibility.png)
