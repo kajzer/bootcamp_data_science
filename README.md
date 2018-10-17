@@ -33,8 +33,6 @@
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
 
-
-
 ## Bootcamp Data Science
 
 ### Session 3 Projects
@@ -147,6 +145,8 @@ Simple list comprehension
 [spliting, deep copies, casting, ix_](./Additional/Numpy/spliting_copeis_casting.ipynb)
 
 ### Math
+
+[Conditional Probability](./Additional/Math/conditional_probability.ipynb)
 
 [Covariance and Correlation](./Additional/Math/cov_corr.ipynb)
 
