@@ -1,5 +1,37 @@
 # Data Science and Python Portfolio
 
+**Table of Contents**
+
+- [Data Science and Python Portfolio](#data-science-and-python-portfolio)
+  * [Bootcamp Data Science](#bootcamp-data-science)
+    + [Session 3 Projects](#session-3-projects)
+    + [Session 2 Projects](#session-2-projects)
+    + [Session 1 Projects](#session-1-projects)
+    + [Projects](#projects)
+      - [DataFrame/Pandas manipulation and visualization](#dataframe-pandas-manipulation-and-visualization)
+    + [Pandas](#pandas)
+    + [NumPy](#numpy)
+    + [Math](#math)
+    + [Ploting](#ploting)
+  * [Additional scripts in python](#additional-scripts-in-python)
+    + [Counting emails](#counting-emails)
+    + [Many to many relational db](#many-to-many-relational-db)
+    + [Hangman Game](#hangman-game)
+    + [Excel file handling](#excel-file-handling)
+    + [Itunes tracks parser](#itunes-tracks-parser)
+    + [PDFs handling](#pdfs-handling)
+    + [Linked list](#linked-list)
+    + [Iterable](#iterable)
+    + [Fibonacci sequence generator](#fibonacci-sequence-generator)
+    + [Quiz generator](#quiz-generator)
+    + [Twilio API](#twilio-api)
+    + [Google maps from console](#google-maps-from-console)
+    + [Get weather from command line](#get-weather-from-command-line)
+    + [Check profanity in txt file](#check-profanity-in-txt-file)
+    + [Console logging](#console-logging)
+    + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
+    + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
+
 ## Bootcamp Data Science
 
 ### Session 3 Projects
@@ -47,13 +79,15 @@ Simple list comprehension
 
 ### Projects
 
-[Summer Olympics Games dataset manipulation](./Additional/Projects/summer_olympic_games/summer_olympics.ipynb)
+#### DataFrame/Pandas manipulation and visualization
+
+[Summer Olympics Games dataset manipulation](./Additional/Projects/summer_olympic_games/summer_olympics.ipynb) - DataCamp
 
 ![Temperature vs Visibility](./Additional/Projects/summer_olympic_games/france_medals.png)
 
 ![Temperature vs Visibility](./Additional/Projects/summer_olympic_games/usa_medals_area.png)
 
-[Austin weather dataset manipulation](./Additional/Pandas/austin_weather_dataset.ipynb)
+[Austin weather dataset manipulation](./Additional/Pandas/austin_weather_dataset.ipynb) - DataCamp
 
 ![Temperature vs Visibility](./Additional/Pandas/temp_visibility.png)
 
