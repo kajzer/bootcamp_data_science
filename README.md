@@ -1,11 +1,13 @@
-# Bootcamp Data Science
+# Data Science and Python Portfolio
 
-## Session 3 Projects
+## Bootcamp Data Science
+
+### Session 3 Projects
 
 Link: **[Numpy arrays excercises](./Week_03/exercises_numpy.ipynb)**  
 Few excercises with numpy and some linear regresion.
 
-## Session 2 Projects
+### Session 2 Projects
 
 Link: **[Flask API Endpoint](./Week_02/flask_api.py)**  
 Implement simple API with flask and sqlalchemy. To run app:
@@ -20,7 +22,7 @@ Jupyter notebook with class to parse and ad error logs to DB using sqlalchemy.
 Link: **[Methods for db manipulation with ssqlalchemy](./Week_02/PostgreSQLpython.ipynb)**  
 Few methods for DB manipulation using PostgreSQL
 
-## Session 1 Projects
+### Session 1 Projects
 
 Link: **[Refactor - OOP and linear regression](./Week_01/Refactor_OOP_and_linear_regression.ipynb)**  
 Implemented class with inheritance, simple abstract factory design pattern, calss method, static method, class variable, dunder methods, and property. Class has a simple linear reggresion model. Earlier version can be found under [>>>](./Week_01/class_and_linear_regression.ipynb)
@@ -43,13 +45,21 @@ Access terminal functions and variables from within jupyter notebooks
 Link: **[list comprehensions](./Week_01/zadanie6.py)**  
 Simple list comprehension
 
-## Pandas
+### Projects
 
-[Grouping data](./Additional/Pandas/grouping_data.ipynb)
+[Summer Olympics Games dataset manipulation](./Additional/Projects/summer_olympic_games/summer_olympics.ipynb)
+
+![Temperature vs Visibility](./Additional/Projects/summer_olympic_games/france_medals.png)
+
+![Temperature vs Visibility](./Additional/Projects/summer_olympic_games/usa_medals_area.png)
 
 [Austin weather dataset manipulation](./Additional/Pandas/austin_weather_dataset.ipynb)
 
 ![Temperature vs Visibility](./Additional/Pandas/temp_visibility.png)
+
+### Pandas
+
+[Grouping data](./Additional/Pandas/grouping_data.ipynb)
 
 [Pandas time series](./Additional/Pandas/pandas_time_series.ipynb)
 
@@ -85,7 +95,7 @@ Simple list comprehension
 ![temperature and dew point as subplots](./Additional/Pandas/temp_dew_sub.png)
 ![temp and dew point](./Additional/Pandas/temp_dew.png)
 
-## NumPy
+### NumPy
 
 [Basic info about NumPy](./Additional/Numpy/numpy_arrays.ipynb)
 
@@ -97,7 +107,7 @@ Simple list comprehension
 
 [spliting, deep copies, casting, ix_](./Additional/Numpy/spliting_copeis_casting.ipynb)
 
-## Math
+### Math
 
 [Covariance and Correlation](./Additional/Math/cov_corr.ipynb)
 
@@ -109,7 +119,7 @@ Simple list comprehension
 
 [Percentiles and moments](./Additional/Math/percentiles_and_moments.ipynb)
 
-## Ploting
+### Ploting
 
 [Ploting from remote source](./Additional/Ploting/Matplotlib/remote_url_plot_df.ipynb)
 
