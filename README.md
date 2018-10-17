@@ -7,6 +7,7 @@
     + [Session 3 Projects](#session-3-projects)
     + [Session 2 Projects](#session-2-projects)
     + [Session 1 Projects](#session-1-projects)
+  * [Aditional DataScience scripts](#aditional-datascience-scripts)
     + [Projects](#projects)
       - [DataFrame/Pandas manipulation and visualization](#dataframe-pandas-manipulation-and-visualization)
     + [Pandas](#pandas)
@@ -31,6 +32,8 @@
     + [Console logging](#console-logging)
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
+
+
 
 ## Bootcamp Data Science
 
@@ -76,6 +79,8 @@ Access terminal functions and variables from within jupyter notebooks
 
 Link: **[list comprehensions](./Week_01/zadanie6.py)**  
 Simple list comprehension
+
+## Aditional DataScience scripts
 
 ### Projects
 
