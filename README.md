@@ -90,6 +90,8 @@ Simple list comprehension
 
 ![Rolling google trends](./Additional/Projects/kardashians_google_search_results/output.png)
 
+[Exploring 67 years of LEGO](./Additional/Projects/exploring_67_years_LEGO/lego.ipynb) - DataCamp
+
 [Summer Olympics Games dataset manipulation](./Additional/Projects/summer_olympic_games/summer_olympics.ipynb) - DataCamp
 
 ![Temperature vs Visibility](./Additional/Projects/summer_olympic_games/france_medals.png)
