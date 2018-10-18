@@ -86,6 +86,10 @@ Simple list comprehension
 
 #### DataFrame/Pandas manipulation and visualization
 
+[Exploring Bitcoin market cap](./Additional/Projects/exploring_bitcoin_cryptocurrency_market/bitcoin.ipynb) - DataCamp
+
+![Market cap by coin](./Additional/Projects/exploring_bitcoin_cryptocurrency_market/market_cap.png)
+
 [Kardashian google search trends over time](./Additional/Projects/kardashians_google_search_results/kardashians.ipynb) - DataCamp
 
 ![Rolling google trends](./Additional/Projects/kardashians_google_search_results/output.png)
