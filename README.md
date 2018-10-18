@@ -33,6 +33,8 @@
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
 
+    
+
 ## Bootcamp Data Science
 
 ### Session 3 Projects
@@ -83,6 +85,10 @@ Simple list comprehension
 ### Projects
 
 #### DataFrame/Pandas manipulation and visualization
+
+[Kardashian google search trends over time](./Additional/Projects/summer_olympic_games/kardashians.ipynb) - DataCamp
+
+![Rolling google trends](./Additional/Projects/summer_olympic_games/output.png)
 
 [Summer Olympics Games dataset manipulation](./Additional/Projects/summer_olympic_games/summer_olympics.ipynb) - DataCamp
 
