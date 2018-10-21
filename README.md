@@ -1,9 +1,12 @@
 # Data Science and Python Portfolio
 
+[Open catalogue in nbviewer](http://nbviewer.jupyter.org/github/kajzer/bootcamp_data_science/tree/master/)
+
 **Table of Contents**
 
 - [Data Science and Python Portfolio](#data-science-and-python-portfolio)
   * [Bootcamp Data Science](#bootcamp-data-science)
+    + [Session 4 Projects](#session-4-projects)
     + [Session 3 Projects](#session-3-projects)
     + [Session 2 Projects](#session-2-projects)
     + [Session 1 Projects](#session-1-projects)
@@ -33,9 +36,29 @@
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
 
-
-
 ## Bootcamp Data Science
+
+### Session 4 Projects
+
+Link: **[Manipulating pandas dataframes to match SQL queries](./Week_04/db_pandas_excercise.ipynb)**  
+Excercises in pandas dataframes manipulation to return same result as SQL queries made to SQLite bd.
+
+Link: **[Manipullating movies dataset and mergin with users and ratings datasets](./Week_04/movies_dataset.ipynb)**  
+Manipulating, mergin and cleanng of 3 datasets: Movies, Users, Ratings.
+
+Link: **[Lecture notes from pandas](./Week_04/lecture_pandas.ipynb)**  
+Pandas lecture notes.
+
+Link: **[Matplotlib excercises](./Week_04/matplot_excercises.ipynb)**  
+Matplotlib excercises.
+
+Link: **[Matplotlib watch excercise](./Week_04/watch.ipynb)**  
+Creating watch in matplotlib.
+
+Link: **[Matplotlib module lecture notes](./Week_04/matplot_lecture.ipynb)**  
+Matplotlib lecture notes.
+
+![Flights heatmap](./Week_04/flights.png)
 
 ### Session 3 Projects
 
@@ -132,6 +155,8 @@ Simple list comprehension
 [Cleaning data](./Additional/Pandas/cleaning_data.ipynb)
 
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
+
+[Preparing data](./Additional/Pandas/preparing_data.ipynb)
 
 [Rearrange and reshape data in pandas](./Additional/Pandas/rearrange_reshape_data.ipynb)
 
