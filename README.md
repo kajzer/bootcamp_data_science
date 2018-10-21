@@ -36,6 +36,8 @@
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
 
+[Link](https://github.com/kajzer/rails_ruby) to Ruby and Ruby on Rails protfolio
+
 ## Bootcamp Data Science
 
 ### Session 4 Projects
