@@ -182,7 +182,7 @@ Simple list comprehension
 
 [spliting, deep copies, casting, ix_](./Additional/Numpy/spliting_copeis_casting.ipynb)
 
-### Math
+### Statistics
 
 [Conditional Probability](./Additional/Math/conditional_probability.ipynb)
 
