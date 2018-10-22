@@ -1,6 +1,6 @@
 # Data Science and Python Portfolio
 
-[Open catalogue in nbviewer](http://nbviewer.jupyter.org/github/kajzer/bootcamp_data_science/tree/master/)
+[Open catalogue in nbviewer](http://nbviewer.jupyter.org/github/kajzer/bootcamp_data_science/tree/master/) | [Link](https://github.com/kajzer/rails_ruby) to Ruby and Ruby on Rails protfolio
 
 **Table of Contents**
 
@@ -36,7 +36,6 @@
     + [Copy passwords to clipboard](#copy-passwords-to-clipboard)
     + [Pomodoro and file rernaming](#pomodoro-and-file-rernaming)
 
-[Link](https://github.com/kajzer/rails_ruby) to Ruby and Ruby on Rails protfolio
 
 ## Bootcamp Data Science
 
