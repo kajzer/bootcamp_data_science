@@ -15,8 +15,9 @@
       - [DataFrame/Pandas manipulation and visualization](#dataframe-pandas-manipulation-and-visualization)
     + [Pandas](#pandas)
     + [NumPy](#numpy)
-    + [Math](#math)
+    + [Statistics](#statistics)
     + [Ploting](#ploting)
+    + [SQL](#sql)
   * [Additional scripts in python](#additional-scripts-in-python)
     + [Counting emails](#counting-emails)
     + [Many to many relational db](#many-to-many-relational-db)
@@ -203,6 +204,10 @@ Simple list comprehension
 [Plot types](./Additional/Ploting/Matplotlib/plot_types_matplotlib.ipynb)
 
 ![Simple plot](./Additional/Ploting/Matplotlib/myplot.png)
+
+### SQL
+
+[PostgreSQL JOIN's with SQLalchemy and pandas](./Additional/SQL/JOIN_udacity/postgresql_join.ipynb)
 
 ## Additional scripts in python
 
