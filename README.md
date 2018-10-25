@@ -18,6 +18,7 @@
     + [Statistics](#statistics)
     + [Ploting](#ploting)
     + [SQL](#sql)
+    + [Web Scraping](#web-scraping)
   * [Additional scripts in python](#additional-scripts-in-python)
     + [Counting emails](#counting-emails)
     + [Many to many relational db](#many-to-many-relational-db)
@@ -208,6 +209,12 @@ Simple list comprehension
 ### SQL
 
 [PostgreSQL JOIN's with SQLalchemy and pandas](./Additional/SQL/JOIN_udacity/postgresql_join.ipynb)
+
+### Web Scraping
+
+[Scrape runners times, clean data, load to dataframe and plot hist](./Additional/web_scraping/hubertiming.ipynb)
+
+[Scrape tech track, clean and save as csv](./Additional/web_scraping/hubertiming.ipynb)
 
 ## Additional scripts in python
 
