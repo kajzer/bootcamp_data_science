@@ -157,6 +157,10 @@ Simple list comprehension
 
 [Cleaning data](./Additional/Pandas/cleaning_data.ipynb)
 
+[Merging data in pandas](./Additional/Pandas/merging_data.ipynb) <a href="https://colab.research.google.com/drive/1DCEQP1x-3X4N-ALKwZZTBDyz1g7L-UX5"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+
+[Concatenating data in pandas](./Additional/Pandas/concat_data.ipynb) <a href="https://colab.research.google.com/drive/10VLSCNPNSdNgYb-aA72J87d30J-EtHjS"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+
 [Combining data in Pandas](./Additional/Pandas/combining_data.ipynb)
 
 [Preparing data](./Additional/Pandas/preparing_data.ipynb)
