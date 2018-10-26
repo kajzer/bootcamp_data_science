@@ -220,6 +220,8 @@ Simple list comprehension
 
 [Scrape tech track, clean and save as csv](./Additional/web_scraping/hubertiming.ipynb)
 
+[Scrape quotes with scrapy](./Additional/web_scraping/tutorial/)
+
 ## Additional scripts in python
 
 More scripts in python can be found **[here](https://github.com/kajzer/python_scripts_training)**  
