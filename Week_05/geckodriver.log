@@ -1,0 +1,1154 @@
+1540733728021	geckodriver	INFO	geckodriver 0.21.0
+1540733728031	geckodriver	INFO	Listening on 127.0.0.1:42551
+1540733728079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XJjcQB3jOQU9"
+1540733728819	Marionette	DEBUG	Received observer notification profile-after-change
+1540733728880	Marionette	DEBUG	Received observer notification command-line-startup
+1540733728881	Marionette	DEBUG	Received observer notification nsPref:changed
+1540733728881	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:17020): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17020): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540733730338	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540733731455	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540733731456	Marionette	DEBUG	Waiting for delayed startup...
+1540733731954	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540733731955	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540733731956	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540733731957	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540733731973	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540733731975	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540733731975	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540733731976	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540733731976	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540733731976	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540733731977	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540733731977	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540733731978	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540733731978	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540733731979	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540733731979	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540733731979	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540733731980	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540733731980	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540733731980	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540733731981	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540733731981	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540733731981	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540733731982	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540733731982	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540733731983	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540733732056	Marionette	INFO	Listening on port 43829
+1540733732056	Marionette	DEBUG	Remote service is active
+1540733732165	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56362
+1540733732166	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540733732167	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540733732228	Marionette	DEBUG	[4294967297] Frame script loaded
+1540733732252	Marionette	DEBUG	[4294967297] Frame script registered
+1540733732264	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"9777dba9-7f4e-43b0-a13e-d563b73fa383","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540733732281	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://www.python.org"}]
+1540733732320	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540733732771	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540733733452	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.python.org/
+1540733733903	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.python.org/
+1540733733907	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540733733932	Marionette	TRACE	0 -> [0,3,"WebDriver:GetTitle",{}]
+1540733733934	Marionette	TRACE	0 <- [1,3,null,{"value":"Welcome to Python.org"}]
+1540733733944	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[name=\"q\"]"}]
+1540733733955	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"87548e86-50cc-4abe-b9e8-5ca61192ec8e"}}]
+1540733733965	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementClear",{"id":"87548e86-50cc-4abe-b9e8-5ca61192ec8e"}]
+1540733734002	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1540733734010	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"87548e86-50cc-4abe-b9e8-5ca61192ec8e","text":"pycon","value":["p","y","c","o","n"]}]
+1540733734055	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1540733734062	Marionette	TRACE	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"87548e86-50cc-4abe-b9e8-5ca61192ec8e","text":"","value":[""]}]
+1540733734104	Marionette	TRACE	0 <- [1,7,null,{"value":null}]
+1540733736119	Marionette	TRACE	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1540733736123	Marionette	TRACE	0 <- [1,8,null,{"value":"<html class=\"js no-touch geolocation fontface generatedcontent svg formvalidation placeholder boxsizing  ... mputedStyle-min.js\" charset=\"utf-8\"></script>\n    \n    \n    <![endif]-->\n\n    \n\n    \n    \n\n\n\n</body></html>"}]
+1540733736130	Marionette	TRACE	0 -> [0,9,"WebDriver:CloseWindow",{}]
+1540733736131	Marionette	TRACE	0 <- [1,9,null,[]]
+1540733736132	Marionette	TRACE	0 -> [0,10,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540733736133	Marionette	INFO	Stopped listening on port 43829
+1540733736265	Marionette	TRACE	0 <- [1,10,null,{"cause":"shutdown"}]
+1540733736332	Marionette	DEBUG	Closed connection 0
+[Parent 17020, Gecko_IOThread] WARNING: pipe error (76): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540733736529	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540733736529	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540733736530	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540733736530	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540733736531	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540733736531	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540733736531	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540733736532	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540733736532	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540733736533	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540733736534	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540733736534	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540733736534	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540733736535	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540733736535	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540733736536	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540733736536	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540733736537	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540733736537	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540733736538	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540733736538	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540733736538	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540733736538	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540733736539	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540733736539	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540733736539	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540733736540	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540733736540	Marionette	DEBUG	Remote service is inactive
+1540734291820	geckodriver	INFO	geckodriver 0.21.0
+1540734291841	geckodriver	INFO	Listening on 127.0.0.1:53257
+1540734294959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.aZZJ3atnE07i"
+1540734321698	geckodriver	INFO	geckodriver 0.21.0
+1540734321708	geckodriver	INFO	Listening on 127.0.0.1:53328
+1540734324741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.ZadL7kJd0Ry7"
+1540734326374	Marionette	INFO	Listening on port 53340
+1540734326851	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734326881	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734326883	Marionette	DEBUG	[6442450945] Frame script registered
+1540734326897	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734327260	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734327709	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.python.org/
+1540734327953	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.python.org/
+1540734330062	Marionette	INFO	Stopped listening on port 53340
+[Parent 32444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 42444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 42444, Ch[Child 41944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 41944, Chrom[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734337736	geckodriver	INFO	geckodriver 0.21.0
+1540734337745	geckodriver	INFO	Listening on 127.0.0.1:53385
+1540734340760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.XPfRJ2DsS8z0"
+1540734342457	Marionette	INFO	Listening on port 53397
+1540734342878	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734342908	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734342910	Marionette	DEBUG	[6442450945] Frame script registered
+1540734342928	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734343153	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734343514	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.python.org/
+1540734343758	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.python.org/
+1540734345853	Marionette	INFO	Stopped listening on port 53397
+[Parent 63944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32316, Chrome_ChildThread] WARNING: pipe [Child 33828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33828, Chrome_Ch[Parent 63944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 213[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734554414	geckodriver	INFO	geckodriver 0.21.0
+1540734554423	geckodriver	INFO	Listening on 127.0.0.1:53720
+1540734557447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.q8nRcqnDDzZF"
+1540734559458	Marionette	INFO	Listening on port 53732
+1540734559558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734559595	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734559596	Marionette	DEBUG	[6442450945] Frame script registered
+1540734559609	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734559862	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734560069	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734560071	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734562077	Marionette	INFO	Stopped listening on port 53732
+[Parent 35080, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28076, Chrome[Child 59300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59300, Chrome_ChildThread] WARNING: pi[Parent 35080, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26396, Ch[GPU 151
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734622069	geckodriver	INFO	geckodriver 0.21.0
+1540734622079	geckodriver	INFO	Listening on 127.0.0.1:53843
+1540734625116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.XKnk9IGVICgK"
+1540734626701	Marionette	INFO	Listening on port 53855
+1540734626737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734626791	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734626793	Marionette	DEBUG	[6442450945] Frame script registered
+1540734626822	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734627003	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734627182	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734627186	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734629200	Marionette	INFO	Stopped listening on port 53855
+[Child 26004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26004, [Child 46740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 46740, Chrome_ChildThread] WARNING: p[Parent 60576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30008, [GPU 3264
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734641488	geckodriver	INFO	geckodriver 0.21.0
+1540734641496	geckodriver	INFO	Listening on 127.0.0.1:53897
+1540734644542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.nTrM3cqp0SpY"
+1540734646089	Marionette	INFO	Listening on port 53909
+1540734646154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734646194	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734646226	Marionette	DEBUG	[6442450945] Frame script registered
+1540734646267	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734646449	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734646623	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734646628	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734651644	Marionette	INFO	Stopped listening on port 53909
+[Parent 51720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 51720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Ch ild 18460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18460, Chrome_Child[Parent 51720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11356, Chrome_ChildThread] WAR[GPU 25944,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734712991	geckodriver	INFO	geckodriver 0.21.0
+1540734713001	geckodriver	INFO	Listening on 127.0.0.1:54023
+1540734716043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.JuS3Ny6NL4ps"
+1540734717663	Marionette	INFO	Listening on port 54035
+1540734718159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734718186	Marionette	DEBUG	[6442450945] Frame script loaded
+1540734718189	Marionette	DEBUG	[6442450945] Frame script registered
+1540734718204	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540734718390	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540734718580	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734718584	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734723602	Marionette	INFO	Stopped listening on port 54035
+[Parent 16316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28228, Ch[Parent 16316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44544, Chro[Parent 16316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65252, C[GPU 121
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540734951956	geckodriver	INFO	geckodriver 0.21.0
+1540734951977	geckodriver	INFO	Listening on 127.0.0.1:52933
+1540734952966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SsznRHejNfJt"
+1540734955413	Marionette	DEBUG	Received observer notification profile-after-change
+1540734955507	Marionette	DEBUG	Received observer notification command-line-startup
+1540734955507	Marionette	DEBUG	Received observer notification nsPref:changed
+1540734955508	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:2654): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2654): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540734955770	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540734957380	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540734957380	Marionette	DEBUG	Waiting for delayed startup...
+1540734958003	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540734958010	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540734958011	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540734958012	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540734958013	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540734958014	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540734958015	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540734958019	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540734958019	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540734958020	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540734958021	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540734958021	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540734958022	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540734958023	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540734958023	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540734958024	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540734958024	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540734958025	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540734958025	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540734958025	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540734958026	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540734958026	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540734958027	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540734958027	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540734958028	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540734958028	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540734958154	Marionette	INFO	Listening on port 33965
+1540734958155	Marionette	DEBUG	Remote service is active
+1540734958176	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:36842
+1540734958188	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540734958189	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734958289	Marionette	DEBUG	[4294967297] Frame script loaded
+1540734958305	Marionette	DEBUG	[4294967297] Frame script registered
+1540734958322	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"b2dd7050-06b2-4d40-bd8f-c2390f54965d","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540734958338	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://www.python.org"}]
+1540734958363	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540734958778	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540734959383	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.python.org/
+1540734961049	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.python.org/
+1540734961053	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540734961075	Marionette	TRACE	0 -> [0,3,"WebDriver:GetTitle",{}]
+1540734961077	Marionette	TRACE	0 <- [1,3,null,{"value":"Welcome to Python.org"}]
+1540734961114	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[name=\"q\"]"}]
+1540734961135	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3307bb44-c392-47a0-9ff9-e0462d4407f5"}}]
+1540734961146	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementClear",{"id":"3307bb44-c392-47a0-9ff9-e0462d4407f5"}]
+1540734961162	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1540734961167	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"3307bb44-c392-47a0-9ff9-e0462d4407f5","text":"pycon","value":["p","y","c","o","n"]}]
+1540734961199	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1540734961202	Marionette	TRACE	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"3307bb44-c392-47a0-9ff9-e0462d4407f5","text":"","value":[""]}]
+1540734961249	Marionette	TRACE	0 <- [1,7,null,{"value":null}]
+1540734963255	Marionette	TRACE	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1540734963260	Marionette	TRACE	0 <- [1,8,null,{"value":"<html class=\"js no-touch geolocation fontface generatedcontent svg formvalidation placeholder boxsizing  ... mputedStyle-min.js\" charset=\"utf-8\"></script>\n    \n    \n    <![endif]-->\n\n    \n\n    \n    \n\n\n\n</body></html>"}]
+1540734963266	Marionette	TRACE	0 -> [0,9,"WebDriver:CloseWindow",{}]
+1540734963267	Marionette	TRACE	0 <- [1,9,null,[]]
+1540734963268	Marionette	TRACE	0 -> [0,10,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540734963268	Marionette	INFO	Stopped listening on port 33965
+1540734963365	Marionette	TRACE	0 <- [1,10,null,{"cause":"shutdown"}]
+1540734963453	Marionette	DEBUG	Closed connection 0
+[Parent 2654, Gecko_IOThread] WARNING: pipe error (76): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540734963626	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540734963626	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540734963627	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540734963627	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540734963628	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540734963628	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540734963628	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540734963629	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540734963629	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540734963630	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540734963630	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540734963631	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540734963631	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540734963632	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540734963632	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540734963632	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540734963633	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540734963633	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540734963633	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540734963634	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540734963634	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540734963635	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540734963635	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540734963635	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540734963635	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540734963636	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540734963636	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540734963637	Marionette	DEBUG	Remote service is inactive
+1540734963944	geckodriver	INFO	geckodriver 0.21.0
+1540734963949	geckodriver	INFO	Listening on 127.0.0.1:56015
+1540734964950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gb5DoNcDdZP3"
+1540734965648	Marionette	DEBUG	Received observer notification profile-after-change
+1540734965713	Marionette	DEBUG	Received observer notification command-line-startup
+1540734965714	Marionette	DEBUG	Received observer notification nsPref:changed
+1540734965714	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:2902): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2902): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540734965925	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540734967109	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540734967112	Marionette	DEBUG	Waiting for delayed startup...
+1540734967676	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540734967677	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540734967678	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540734967680	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540734967681	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540734967682	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540734967682	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540734967683	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540734967683	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540734967684	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540734967684	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540734967685	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540734967686	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540734967686	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540734967687	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540734967687	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540734967687	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540734967688	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540734967688	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540734967688	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540734967689	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540734967689	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540734967690	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540734967690	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540734967691	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540734967691	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540734967759	Marionette	INFO	Listening on port 42825
+1540734967760	Marionette	DEBUG	Remote service is active
+1540734967768	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:34888
+1540734967806	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540734967812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540734967918	Marionette	DEBUG	[4294967297] Frame script loaded
+1540734967925	Marionette	DEBUG	[4294967297] Frame script registered
+1540734968014	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"945bae65-e318-4c8f-b1b4-0bd9c739a398","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540734968042	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://nik.bot.nu/brws.html#list/tag:berserk/"}]
+1540734968064	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540734968400	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540734968698	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734968702	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540734968706	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540734968719	Marionette	TRACE	0 -> [0,3,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0,300);","scriptTimeout":null,"specialPowers":false}]
+1540734968725	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1540734973731	Marionette	TRACE	0 -> [0,4,"WebDriver:CloseWindow",{}]
+1540734973731	Marionette	TRACE	0 <- [1,4,null,[]]
+1540734973733	Marionette	TRACE	0 -> [0,5,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540734973734	Marionette	INFO	Stopped listening on port 42825
+1540734973860	Marionette	TRACE	0 <- [1,5,null,{"cause":"shutdown"}]
+1540734973931	Marionette	DEBUG	Closed connection 0
+[Parent 2902, Gecko_IOThread] WARNING: pipe error (76): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540734974141	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540734974141	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540734974142	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540734974142	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540734974142	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540734974143	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540734974143	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540734974144	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540734974145	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540734974145	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540734974146	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540734974146	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540734974146	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540734974147	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540734974148	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540734974148	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540734974148	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540734974149	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540734974149	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540734974150	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540734974150	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540734974150	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540734974151	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540734974151	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540734974151	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540734974152	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540734974152	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540734974152	Marionette	DEBUG	Remote service is inactive
+1540735032095	geckodriver	INFO	geckodriver 0.21.0
+1540735032105	geckodriver	INFO	Listening on 127.0.0.1:54599
+1540735035128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.3LzGa9CTSlHU"
+1540735036817	Marionette	INFO	Listening on port 54611
+1540735037238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735037272	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735037274	Marionette	DEBUG	[6442450945] Frame script registered
+1540735037289	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735037473	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735037679	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735037913	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735042935	Marionette	INFO	Stopped listening on port 54611
+[Parent 33500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25376, Chrome_ChildThread] WARNING: pipe error: [Parent 33500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24800, Chrome_ChildThread] WARNING: pi[GPU 45224, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735065231	geckodriver	INFO	geckodriver 0.21.0
+1540735065242	geckodriver	INFO	Listening on 127.0.0.1:54672
+1540735068274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.mNrQzlO4kV3V"
+1540735069876	Marionette	INFO	Listening on port 54684
+1540735069889	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735069928	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735069930	Marionette	DEBUG	[6442450945] Frame script registered
+1540735069971	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735070202	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735070413	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735070416	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735076979	Marionette	INFO	Stopped listening on port 54684
+[Parent 42672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26236, Chrome[Child 67080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 67080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/b[Parent 42672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24228, Chrome_ChildTh[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735085685	geckodriver	INFO	geckodriver 0.21.0
+1540735085695	geckodriver	INFO	Listening on 127.0.0.1:54729
+1540735088725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.4NZ9gDM1Bn7z"
+1540735090318	Marionette	INFO	Listening on port 54741
+1540735090352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735090388	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735090397	Marionette	DEBUG	[6442450945] Frame script registered
+1540735090423	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735090655	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735090854	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735090857	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735097477	Marionette	INFO	Stopped listening on port 54741
+[Parent 66728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59348, Chrome_Chi[Parent 66728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59056[GPU 12148, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735127618	geckodriver	INFO	geckodriver 0.21.0
+1540735127627	geckodriver	INFO	Listening on 127.0.0.1:54816
+1540735130659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.xtQ5zwPA3Yk3"
+1540735132793	Marionette	INFO	Listening on port 54828
+1540735132827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735132867	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735132869	Marionette	DEBUG	[6442450945] Frame script registered
+1540735132890	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735133141	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735133335	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735133338	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+[Child 47200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 47200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/com[Child 44616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44616, Chrome_Chi[Parent 35288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1540735142130	Marionette	INFO	Stopped listening on port 54828
+[GPU 61420
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735198942	geckodriver	INFO	geckodriver 0.21.0
+1540735198957	geckodriver	INFO	Listening on 127.0.0.1:54954
+1540735201989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.2WqSbBOHMfx9"
+1540735204192	Marionette	INFO	Listening on port 54966
+1540735204247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735204281	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735204282	Marionette	DEBUG	[6442450945] Frame script registered
+1540735204312	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735204554	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735204759	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735204763	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735210323	Marionette	INFO	Stopped listening on port 54966
+[Parent 19868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24204, Chrome_ChildThre[Parent 19868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16508, [Parent 19868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23296[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735227271	geckodriver	INFO	geckodriver 0.21.0
+1540735227280	geckodriver	INFO	Listening on 127.0.0.1:55034
+1540735230311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.CiE2PVeH37wY"
+1540735232160	Marionette	INFO	Listening on port 55046
+1540735232421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735232454	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735232455	Marionette	DEBUG	[6442450945] Frame script registered
+1540735232469	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735232677	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735232874	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735232876	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735239455	Marionette	INFO	Stopped listening on port 55046
+[Parent 34640, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 53476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 53476, [Parent 34640, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29996, Chrome_ChildThre[Parent 34640, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28700, Chrome_ChildThread] [GPU 39248, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735264418	geckodriver	INFO	geckodriver 0.21.0
+1540735264426	geckodriver	INFO	Listening on 127.0.0.1:55113
+1540735267455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.jA8XrvQSJgAP"
+1540735269207	Marionette	INFO	Listening on port 55125
+1540735269565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735269595	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735269596	Marionette	DEBUG	[6442450945] Frame script registered
+1540735269613	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735269803	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735269993	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735269996	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735277154	Marionette	INFO	Stopped listening on port 55125
+[Parent 5512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13264, Chr[Parent 5512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 41768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 41768, Chrome[Parent 5512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65108, [GPU 2737
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735339911	geckodriver	INFO	geckodriver 0.21.0
+1540735339921	geckodriver	INFO	Listening on 127.0.0.1:55301
+1540735342969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.EdedpihO3tNT"
+1540735345116	Marionette	INFO	Listening on port 55313
+1540735345231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735345271	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735345272	Marionette	DEBUG	[6442450945] Frame script registered
+1540735345293	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735345558	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735345754	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735345757	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735349344	Marionette	INFO	Stopped listening on port 55313
+[Parent 29208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 42000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 42000, Ch[Child 7248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7248, Chr[Parent 29208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 63264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 63264, C[GPU 61804, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735492578	geckodriver	INFO	geckodriver 0.21.0
+1540735492583	geckodriver	INFO	Listening on 127.0.0.1:48913
+1540735493586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oyXIipLDPdGj"
+1540735494290	Marionette	DEBUG	Received observer notification profile-after-change
+1540735495934	Marionette	DEBUG	Received observer notification command-line-startup
+1540735495935	Marionette	DEBUG	Received observer notification nsPref:changed
+1540735495935	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:3744): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3744): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540735496133	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540735497316	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540735497316	Marionette	DEBUG	Waiting for delayed startup...
+1540735497740	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540735497742	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540735497742	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540735497743	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540735497745	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540735497746	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540735497746	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540735497747	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540735497748	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540735497748	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540735497749	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540735497750	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540735497751	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540735497751	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540735497752	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540735497752	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540735497753	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540735497754	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540735497754	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540735497755	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540735497755	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540735497755	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540735497756	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540735497757	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540735497757	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540735497758	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540735497826	Marionette	INFO	Listening on port 42537
+1540735497826	Marionette	DEBUG	Remote service is active
+1540735497881	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49574
+1540735497884	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540735497885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735497958	Marionette	DEBUG	[4294967297] Frame script loaded
+1540735497969	Marionette	DEBUG	[4294967297] Frame script registered
+1540735497976	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"a5e1b80c-d304-4c5d-9ba4-cb437b5adeee","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540735497995	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://nik.bot.nu/brws.html#list/tag:berserk/"}]
+1540735498055	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540735498582	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540735498959	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735498970	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735498975	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540735499018	Marionette	TRACE	0 -> [0,3,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735499053	Marionette	TRACE	0 <- [1,3,null,{"value":400}]
+1540735499059	Marionette	TRACE	0 -> [0,4,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735499095	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1540735499661	Marionette	TRACE	0 -> [0,5,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735499678	Marionette	TRACE	0 <- [1,5,null,{"value":6919}]
+1540735499688	Marionette	TRACE	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735499752	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1540735500315	Marionette	TRACE	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735500336	Marionette	TRACE	0 <- [1,7,null,{"value":13804}]
+1540735500344	Marionette	TRACE	0 -> [0,8,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735500364	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1540735500909	Marionette	TRACE	0 -> [0,9,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735500921	Marionette	TRACE	0 <- [1,9,null,{"value":13804}]
+1540735502928	Marionette	TRACE	0 -> [0,10,"WebDriver:GetPageSource",{}]
+1540735502945	Marionette	TRACE	0 <- [1,10,null,{"value":"<html lang=\"en\"><head>\n<meta name=\"Description\" content=\"Imageboard scraper\">\n<meta http-equiv=\ ... script><h1>enable javascript and localstorage</h1></noscript>\n\n<script src=\"/js/loader.js\"></script>\n\n</body></html>"}]
+1540735502983	Marionette	TRACE	0 -> [0,11,"WebDriver:CloseWindow",{}]
+1540735502985	Marionette	TRACE	0 <- [1,11,null,[]]
+1540735502986	Marionette	TRACE	0 -> [0,12,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540735502986	Marionette	INFO	Stopped listening on port 42537
+1540735503105	Marionette	TRACE	0 <- [1,12,null,{"cause":"shutdown"}]
+1540735503254	Marionette	DEBUG	Closed connection 0
+1540735503476	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540735503476	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540735503477	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540735503477	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540735503477	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540735503478	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540735503478	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540735503478	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540735503480	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540735503481	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540735503481	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540735503482	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540735503482	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540735503483	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540735503483	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540735503483	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540735503484	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540735503484	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540735503484	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540735503485	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540735503485	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540735503486	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540735503486	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540735503486	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540735503486	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540735503487	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540735503487	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540735503487	Marionette	DEBUG	Remote service is inactive
+1540735533628	geckodriver	INFO	geckodriver 0.21.0
+1540735533634	geckodriver	INFO	Listening on 127.0.0.1:42953
+1540735534635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SmiQXOa0r0Zu"
+1540735535337	Marionette	DEBUG	Received observer notification profile-after-change
+1540735535401	Marionette	DEBUG	Received observer notification command-line-startup
+1540735535402	Marionette	DEBUG	Received observer notification nsPref:changed
+1540735535402	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:3989): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3989): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540735535631	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540735536756	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540735536757	Marionette	DEBUG	Waiting for delayed startup...
+1540735537161	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540735537163	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540735537164	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540735537167	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540735537172	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540735537173	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540735537174	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540735537179	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540735537179	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540735537180	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540735537180	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540735537181	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540735537181	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540735537182	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540735537182	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540735537182	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540735537183	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540735537183	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540735537183	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540735537183	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540735537184	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540735537184	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540735537185	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540735537202	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540735537203	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540735537203	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540735537276	Marionette	INFO	Listening on port 38967
+1540735537276	Marionette	DEBUG	Remote service is active
+1540735537353	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:45144
+1540735537358	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540735537363	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735537428	Marionette	DEBUG	[4294967297] Frame script loaded
+1540735537477	Marionette	DEBUG	[4294967297] Frame script registered
+1540735537489	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"5f966fc3-dcdc-4299-ad3f-2cd398deb4a1","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540735537503	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://nik.bot.nu/brws.html#list/tag:berserk/"}]
+1540735537545	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540735537863	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540735538184	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735538193	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735538204	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540735538230	Marionette	TRACE	0 -> [0,3,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735538250	Marionette	TRACE	0 <- [1,3,null,{"value":400}]
+1540735538269	Marionette	TRACE	0 -> [0,4,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735538303	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1540735538808	Marionette	TRACE	0 -> [0,5,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735538814	Marionette	TRACE	0 <- [1,5,null,{"value":6919}]
+1540735538820	Marionette	TRACE	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735538837	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1540735539376	Marionette	TRACE	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735539399	Marionette	TRACE	0 <- [1,7,null,{"value":6919}]
+1540735541405	Marionette	TRACE	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1540735541424	Marionette	TRACE	0 <- [1,8,null,{"value":"<html lang=\"en\"><head>\n<meta name=\"Description\" content=\"Imageboard scraper\">\n<meta http-equiv=\" ... script><h1>enable javascript and localstorage</h1></noscript>\n\n<script src=\"/js/loader.js\"></script>\n\n</body></html>"}]
+1540735541451	Marionette	TRACE	0 -> [0,9,"WebDriver:CloseWindow",{}]
+1540735541452	Marionette	TRACE	0 <- [1,9,null,[]]
+1540735541453	Marionette	TRACE	0 -> [0,10,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540735541454	Marionette	INFO	Stopped listening on port 38967
+1540735541541	Marionette	TRACE	0 <- [1,10,null,{"cause":"shutdown"}]
+1540735541621	Marionette	DEBUG	Closed connection 0
+[Parent 3989, Gecko_IOThread] WARNING: pipe error (76): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540735541808	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540735541809	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540735541809	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540735541810	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540735541810	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540735541811	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540735541811	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540735541812	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540735541812	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540735541813	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540735541813	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540735541814	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540735541814	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540735541815	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540735541815	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540735541816	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540735541816	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540735541817	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540735541817	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540735541818	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540735541818	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540735541819	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540735541819	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540735541819	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540735541820	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540735541820	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540735541821	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540735541821	Marionette	DEBUG	Remote service is inactive
+1540735591992	geckodriver	INFO	geckodriver 0.21.0
+1540735592002	geckodriver	INFO	Listening on 127.0.0.1:55701
+1540735595012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.ZYJKMo2k5Coo"
+1540735597167	Marionette	INFO	Listening on port 55713
+1540735597226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735597269	Marionette	DEBUG	[6442450945] Frame script loaded
+1540735597271	Marionette	DEBUG	[6442450945] Frame script registered
+1540735597318	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540735597583	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540735597781	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735597784	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735601399	Marionette	INFO	Stopped listening on port 55713
+[Child 35244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 35244[Parent 64392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 55796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 55796, Chrome_ChildThre[Parent 64392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37144, Ch[GPU 67228, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540735814419	geckodriver	INFO	geckodriver 0.21.0
+1540735814425	geckodriver	INFO	Listening on 127.0.0.1:48043
+1540735815425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gUcHwyen5Ykn"
+1540735816126	Marionette	DEBUG	Received observer notification profile-after-change
+1540735817738	Marionette	DEBUG	Received observer notification command-line-startup
+1540735817739	Marionette	DEBUG	Received observer notification nsPref:changed
+1540735817739	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:4276): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4276): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540735817960	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540735819129	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540735819129	Marionette	DEBUG	Waiting for delayed startup...
+1540735819411	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540735819411	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540735819414	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540735819420	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540735819422	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540735819424	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540735819424	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540735819426	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540735819428	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540735819429	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540735819431	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540735819432	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540735819433	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540735819434	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540735819435	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540735819437	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540735819438	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540735819438	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540735819439	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540735819440	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540735819441	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540735819441	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540735819441	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540735819442	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540735819443	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540735819444	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540735819505	Marionette	INFO	Listening on port 33707
+1540735819506	Marionette	DEBUG	Remote service is active
+1540735819538	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:38678
+1540735819578	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540735819580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540735819658	Marionette	DEBUG	[4294967297] Frame script loaded
+1540735819668	Marionette	DEBUG	[4294967297] Frame script registered
+1540735819681	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"ca67b0f4-0bb8-4ebc-96fa-38c13da67120","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540735819705	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://nik.bot.nu/brws.html#list/tag:berserk/"}]
+1540735819762	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540735820122	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540735820606	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735820619	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://nik.bot.nu/brws.html#list/tag:berserk/
+1540735820621	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540735820639	Marionette	TRACE	0 -> [0,3,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735820669	Marionette	TRACE	0 <- [1,3,null,{"value":400}]
+1540735820678	Marionette	TRACE	0 -> [0,4,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735820686	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1540735821199	Marionette	TRACE	0 -> [0,5,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735821250	Marionette	TRACE	0 <- [1,5,null,{"value":6919}]
+1540735821260	Marionette	TRACE	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735821292	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1540735821805	Marionette	TRACE	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735821841	Marionette	TRACE	0 <- [1,7,null,{"value":13804}]
+1540735821860	Marionette	TRACE	0 -> [0,8,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"window.scrollTo(0, document.body.scrollHeight);","scriptTimeout":null,"specialPowers":false}]
+1540735821873	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1540735822387	Marionette	TRACE	0 -> [0,9,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"return document.body.scrollHeight","scriptTimeout":null,"specialPowers":false}]
+1540735822400	Marionette	TRACE	0 <- [1,9,null,{"value":13804}]
+1540735824412	Marionette	TRACE	0 -> [0,10,"WebDriver:GetPageSource",{}]
+1540735824424	Marionette	TRACE	0 <- [1,10,null,{"value":"<html lang=\"en\"><head>\n<meta name=\"Description\" content=\"Imageboard scraper\">\n<meta http-equiv=\ ... script><h1>enable javascript and localstorage</h1></noscript>\n\n<script src=\"/js/loader.js\"></script>\n\n</body></html>"}]
+1540735824446	Marionette	TRACE	0 -> [0,11,"WebDriver:CloseWindow",{}]
+1540735824448	Marionette	TRACE	0 <- [1,11,null,[]]
+1540735824449	Marionette	TRACE	0 -> [0,12,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1540735824450	Marionette	INFO	Stopped listening on port 33707
+1540735824596	Marionette	TRACE	0 <- [1,12,null,{"cause":"shutdown"}]
+1540735824735	Marionette	DEBUG	Closed connection 0
+[Parent 4276, Gecko_IOThread] WARNING: pipe error (76): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4276, Gecko_IOThread] WARNING: pipe error (97): Połączenie zerwane przez drugą stronę: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540735824901	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540735824902	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540735824902	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540735824902	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540735824903	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540735824903	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540735824903	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540735824903	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540735824904	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540735824904	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540735824905	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540735824905	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540735824905	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540735824906	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540735824906	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540735824907	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540735824907	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540735824907	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540735824908	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540735824908	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540735824908	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540735824909	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540735824909	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540735824909	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540735824909	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540735824910	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540735824910	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540735824910	Marionette	DEBUG	Remote service is inactive
+1540737609516	geckodriver	INFO	geckodriver 0.21.0
+1540737609525	geckodriver	INFO	Listening on 127.0.0.1:58562
+1540737612546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.oU7wV4boqSFp"
+1540737614669	Marionette	INFO	Listening on port 58574
+1540737614719	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540737614748	Marionette	DEBUG	[6442450945] Frame script loaded
+1540737614750	Marionette	DEBUG	[6442450945] Frame script registered
+1540737614770	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540737614883	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540737615480	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540737615647	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+1540737620653	Marionette	INFO	Stopped listening on port 58574
+[Child 32304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32304, C[Child 49664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 49664, Chrom[Parent 13716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7076, Chrom[GPU 24668,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540737811751	geckodriver	INFO	geckodriver 0.21.0
+1540737811762	geckodriver	INFO	Listening on 127.0.0.1:58874
+1540737814805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.RLM9yJLvuXec"
+1540737817416	Marionette	INFO	Listening on port 58886
+1540737817554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540737817587	Marionette	DEBUG	[6442450945] Frame script loaded
+1540737817589	Marionette	DEBUG	[6442450945] Frame script registered
+1540737817609	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540737817665	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540737818307	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540737818344	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/
+1540737823510	Marionette	INFO	Stopped listening on port 58886
+[Parent 35052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 65908, Chrome_ChildThread] W[Child 54208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 54208, Chrome_ChildThread[Parent 35052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44644, Chrome_C[GPU 42484
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540737836757	geckodriver	INFO	geckodriver 0.21.0
+1540737836767	geckodriver	INFO	Listening on 127.0.0.1:58942
+1540737839799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.5rC82tDQvdpa"
+1540737841474	Marionette	INFO	Listening on port 58954
+1540737841911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540737841941	Marionette	DEBUG	[6442450945] Frame script loaded
+1540737841944	Marionette	DEBUG	[6442450945] Frame script registered
+1540737841960	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540737841995	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540737842564	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540737842587	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/
+1540737847782	Marionette	INFO	Stopped listening on port 58954
+[Parent 53084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9108, Ch[Child 17128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17128, Chrome_ChildThread] WARNING: pipe[Parent 53084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 64716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 64716, Chro[GPU 6486
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540737983122	geckodriver	INFO	geckodriver 0.21.0
+1540737983132	geckodriver	INFO	Listening on 127.0.0.1:59177
+1540737986183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.bKj8Q28d8kaq"
+1540737988437	Marionette	INFO	Listening on port 59189
+1540737988926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540737988956	Marionette	DEBUG	[6442450945] Frame script loaded
+1540737988957	Marionette	DEBUG	[6442450945] Frame script registered
+1540737988970	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540737988995	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540737989574	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540737989713	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+[Parent 58316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27272, Chrome_C[Child 13620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13620, Chrom[Parent 58316, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 40528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 40528, Chrome_C1540737998227	Marionette	INFO	Stopped listening on port 59189
+[GPU 11888
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738140858	geckodriver	INFO	geckodriver 0.21.0
+1540738140868	geckodriver	INFO	Listening on 127.0.0.1:59426
+1540738143896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.dmdgKnAAvnYs"
+1540738145581	Marionette	INFO	Listening on port 59438
+1540738146004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738146040	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738146042	Marionette	DEBUG	[6442450945] Frame script registered
+1540738146060	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738146091	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738146762	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540738146913	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 11856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11856, Ch[Parent 58124, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 46124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 46124, Chro1540738180728	Marionette	INFO	Stopped listening on port 59438
+[GPU 3274
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738222937	geckodriver	INFO	geckodriver 0.21.0
+1540738222946	geckodriver	INFO	Listening on 127.0.0.1:59566
+1540738225987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.kDXAAIbHXSjV"
+1540738228464	Marionette	INFO	Listening on port 59578
+1540738228793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738228834	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738228836	Marionette	DEBUG	[6442450945] Frame script registered
+1540738228854	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738228893	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738229478	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/
+1540738229509	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/
+[Child 24484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24484, Chrome_ChildThread] W[Child 25964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25964, Chrome_ChildThread][Parent 18544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18376, Ch1540738234488	Marionette	INFO	Stopped listening on port 59578
+[GPU 50032, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738245919	geckodriver	INFO	geckodriver 0.21.0
+1540738245928	geckodriver	INFO	Listening on 127.0.0.1:59632
+1540738248958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.GnWrlcXY7mnw"
+1540738251131	Marionette	INFO	Listening on port 59644
+1540738251224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738251257	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738251265	Marionette	DEBUG	[6442450945] Frame script registered
+1540738251296	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738251336	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738252028	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Login
+1540738252092	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+[Parent 42076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44816, Chro[Child 53276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 42076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56472, C1540738355612	Marionette	INFO	Stopped listening on port 59644
+[GPU 7744, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+[Parent 40396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 40396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19524, Chrom[Parent 40396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540738352708	Marionette	INFO	Stopped listening on port 59807
+[GPU 1511
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738368788	geckodriver	INFO	geckodriver 0.21.0
+1540738368798	geckodriver	INFO	Listening on 127.0.0.1:59864
+1540738371819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.JwY2pW6gWt9z"
+1540738373435	Marionette	INFO	Listening on port 59876
+1540738373930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738373957	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738373958	Marionette	DEBUG	[6442450945] Frame script registered
+1540738373974	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738374004	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738374702	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Login
+1540738374758	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 45200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 45200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29028, Chrome_ChildThread] WARNING: pipe error: 109[Child 19972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19972, Chrome_ChildThread][Parent 45200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7764, 1540738381326	Marionette	INFO	Stopped listening on port 59876
+[GPU 20152, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738569737	geckodriver	INFO	geckodriver 0.21.0
+1540738569746	geckodriver	INFO	Listening on 127.0.0.1:60172
+1540738572780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.VKMCq7s6f4fD"
+1540738574369	Marionette	INFO	Listening on port 60184
+1540738574397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738574428	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738574430	Marionette	DEBUG	[6442450945] Frame script registered
+1540738574452	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738574503	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738575112	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Login
+1540738575190	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+1540738577325	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://sos.mini.pw.edu.pl/
+1540738577351	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://sos.mini.pw.edu.pl/
+1540738577352	Marionette	DEBUG	[6442450945] Received DOM event unload for http://sos.mini.pw.edu.pl/
+1540738577832	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Student/Scores
+1540738577932	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Student/Scores
+1540738582969	Marionette	INFO	Stopped listening on port 60184
+[Parent 63004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34080, Ch[Parent 63004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 61384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 61384, Chrome_C[Parent 63004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738684751	geckodriver	INFO	geckodriver 0.21.0
+1540738684761	geckodriver	INFO	Listening on 127.0.0.1:60364
+1540738687808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.U70cHIAGNb5J"
+1540738690089	Marionette	INFO	Listening on port 60376
+1540738690571	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738690600	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738690602	Marionette	DEBUG	[6442450945] Frame script registered
+1540738690615	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738690646	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738691285	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Login
+1540738691360	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+1540738692449	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://sos.mini.pw.edu.pl/
+1540738692477	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://sos.mini.pw.edu.pl/
+1540738692478	Marionette	DEBUG	[6442450945] Received DOM event unload for http://sos.mini.pw.edu.pl/
+1540738692905	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Student/Scores
+1540738692917	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Student/Scores
+1540738698460	Marionette	INFO	Stopped listening on port 60376
+[Parent 61660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 44328, Chr[Child 41400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 41400, Chrome_ChildThre[Parent 61660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 57876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 57876, Chrome_ChildThread] WAR[GPU 6217
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1540738745714	geckodriver	INFO	geckodriver 0.21.0
+1540738745724	geckodriver	INFO	Listening on 127.0.0.1:60481
+1540738748760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kajzer\\AppData\\Local\\Temp\\rust_mozprofile.tcWN1Pgtlw4e"
+1540738750940	Marionette	INFO	Listening on port 60493
+1540738751034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540738751068	Marionette	DEBUG	[6442450945] Frame script loaded
+1540738751070	Marionette	DEBUG	[6442450945] Frame script registered
+1540738751091	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540738751125	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540738751751	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Login
+1540738751826	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Login
+1540738752922	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://sos.mini.pw.edu.pl/
+1540738752950	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://sos.mini.pw.edu.pl/
+1540738752951	Marionette	DEBUG	[6442450945] Received DOM event unload for http://sos.mini.pw.edu.pl/
+1540738753378	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://sos.mini.pw.edu.pl/Student/Scores
+1540738753389	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://sos.mini.pw.edu.pl/Student/Scores
+1540738758942	Marionette	INFO	Stopped listening on port 60493
+[Child 59108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 59108,[Child 66568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 66568, Chro[Parent 52912, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37960, Chrome_Ch[GPU 3
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

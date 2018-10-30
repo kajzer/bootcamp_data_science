@@ -6,6 +6,7 @@
 
 - [Data Science and Python Portfolio](#data-science-and-python-portfolio)
   * [Bootcamp Data Science](#bootcamp-data-science)
+    + [Session 5 Projects](#session-5-projects)
     + [Session 4 Projects](#session-4-projects)
     + [Session 3 Projects](#session-3-projects)
     + [Session 2 Projects](#session-2-projects)
@@ -40,6 +41,32 @@
 
 
 ## Bootcamp Data Science
+
+### Session 5 Projects
+
+Link: **[Cleaning data in pandas](./Week_05/data_cleaning.ipynb)**  
+Excercises in pandas dataframes manipulation.
+
+Link: **[Importing excel files to pandas](./Week_05/data_cleaning.ipynb)**  
+Import *.xlsx files into pandas DataFrame.
+
+Link: **[Geting data from API](./Week_05/JSON.ipynb)**  
+Get JSON data from API and load to pandas DataFrame.
+
+Link: **[Selenium](./Week_05/selenium.ipynb)**  
+Automating web broweser with selenium.
+
+Link: **[Scrapy](./Week_05/miniscrape)**  
+Scraping website with Scrapy.
+
+Link: **[Parsing with regex](./Week_05/web_parsing_re.ipynb)**  
+Parsing webapge from requests module with regex.
+
+Link: **[Parsing with bs4](./Week_05/webscraping_parser.ipynb)**  
+Parsing webapge with Beautifull Soup.
+
+Link: **[XML](./Week_05/webscraping_parser.ipynb)**  
+Parsing XML file.
 
 ### Session 4 Projects
 
@@ -156,6 +183,8 @@ Simple list comprehension
 [Cleaning data for analysis](./Additional/Pandas/cleaning_data_analysis.ipynb)
 
 [Cleaning data](./Additional/Pandas/cleaning_data.ipynb)
+
+[Merging summer olympics data in pandas](./Additional/Pandas/summer_olimp_merging.ipynb) <a href="https://colab.research.google.com/drive/1WDk1ieZ5ymUujDxu3Dl3pnxjWg-bBNxn"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
 
 [Merging data in pandas](./Additional/Pandas/merging_data.ipynb) <a href="https://colab.research.google.com/drive/1DCEQP1x-3X4N-ALKwZZTBDyz1g7L-UX5"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
 
