@@ -243,6 +243,8 @@ Simple list comprehension
 
 [PostgreSQL JOIN's with SQLalchemy and pandas](./Additional/SQL/JOIN_udacity/postgresql_join.ipynb)
 
+[SQLalchemy intro](./Additional/SQL/dc_intro_db/db_intro_sqlalchemy.ipynb)
+
 ### Web Scraping
 
 [Scrape runners times, clean data, load to dataframe and plot hist](./Additional/web_scraping/hubertiming.ipynb)
