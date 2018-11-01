@@ -241,13 +241,13 @@ Simple list comprehension
 
 ### SQL
 
-[SQLalchemy joins, self joins, working with big results](./Additional/SQL/dc_intro_db/adv_sqlalchemy.ipynb)
+[SQLalchemy joins, self joins, working with big results](./Additional/SQL/dc_intr_db/adv_sqlalchemy.ipynb)
 
-[SQLalchemy filtering, ordering, group by](./Additional/SQL/dc_intro_db/filtering.ipynb)
+[SQLalchemy filtering, ordering, group by](./Additional/SQL/dc_intr_db/filtering.ipynb)
 
 [PostgreSQL JOIN's with SQLalchemy and pandas](./Additional/SQL/JOIN_udacity/postgresql_join.ipynb)
 
-[SQLalchemy intro](./Additional/SQL/dc_intro_db/db_intro_sqlalchemy.ipynb)
+[SQLalchemy intro](./Additional/SQL/dc_intr_db/db_intro_sqlalchemy.ipynb)
 
 ### Web Scraping
 
