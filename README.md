@@ -241,6 +241,8 @@ Simple list comprehension
 
 ### SQL
 
+[SQLalchemy - Creating and Manipulating Databases](./Additional/SQL/dc_intr_db/creating_db.ipynb)
+
 [SQLalchemy joins, self joins, working with big results](./Additional/SQL/dc_intr_db/adv_sqlalchemy.ipynb)
 
 [SQLalchemy filtering, ordering, group by](./Additional/SQL/dc_intr_db/filtering.ipynb)
