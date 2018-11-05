@@ -233,6 +233,10 @@ Simple list comprehension
 
 ### Ploting
 
+[Plot types](./Additional/Ploting/intro_data_vis/cutomizing_plots.ipynb)
+
+![Simple plot](./Additional/Ploting/intro_data_vis/ggplot.png)
+
 [Ploting from remote source](./Additional/Ploting/Matplotlib/remote_url_plot_df.ipynb)
 
 [Plot types](./Additional/Ploting/Matplotlib/plot_types_matplotlib.ipynb)
