@@ -233,6 +233,12 @@ Simple list comprehension
 
 ### Ploting
 
+[Statistical plots seaborn](./Additional/Ploting/intro_data_vis/statistical_plots_sns.ipynb)
+
+![Grouped reggression](./Additional/Ploting/intro_data_vis/reg.png)
+
+![Pairplot](./Additional/Ploting/intro_data_vis/pair.png)
+
 [Plot types](./Additional/Ploting/intro_data_vis/cutomizing_plots.ipynb)
 
 ![Simple plot](./Additional/Ploting/intro_data_vis/ggplot.png)
