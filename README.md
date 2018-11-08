@@ -237,6 +237,10 @@ Simple list comprehension
 
 ![Grouped reggression](./Additional/Ploting/intro_data_vis/reg.png)
 
+[Analyzing time series](./Additional/Ploting/intro_data_vis/analyzing_time_series.ipynb)
+
+![Photo histogram](./Additional/Ploting/intro_data_vis/photo_hist.png)
+
 ![Pairplot](./Additional/Ploting/intro_data_vis/pair.png)
 
 [Plot types](./Additional/Ploting/intro_data_vis/cutomizing_plots.ipynb)
