@@ -237,6 +237,8 @@ Simple list comprehension
 
 ![Grouped reggression](./Additional/Ploting/intro_data_vis/reg.png)
 
+[Bokeh plotting](./Additional/Ploting/intro_data_vis/ploting_with_bokeh.ipynb)
+
 [Analyzing time series](./Additional/Ploting/intro_data_vis/analyzing_time_series.ipynb)
 
 ![Photo histogram](./Additional/Ploting/intro_data_vis/photo_hist.png)
