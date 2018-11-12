@@ -233,9 +233,9 @@ Simple list comprehension
 
 ### Ploting
 
-[Bokeh interactiv plot](./Additional/Ploting/bokeh/gapmider_proj/)
+[Bokeh interactiv plot](./Additional/Ploting/bokeh/gapminder_proj/)
 
-![Bokeh plot from gapminder](./Additional/Ploting/bokeh/gapmider_proj/gapminder.gif)
+![Bokeh plot from gapminder](./Additional/Ploting/bokeh/gapminder_proj/gapminder.gif)
 
 [Bokeh applications](./Additional/Ploting/bokeh/bokeh_app/)
 
