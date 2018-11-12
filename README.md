@@ -233,6 +233,8 @@ Simple list comprehension
 
 ### Ploting
 
+[Bokeh layouts, interactions, tooltip](./Additional/Ploting/bokeh/layouts_interactions.ipynb)
+
 [Statistical plots seaborn](./Additional/Ploting/intro_data_vis/statistical_plots_sns.ipynb)
 
 ![Grouped reggression](./Additional/Ploting/intro_data_vis/reg.png)
