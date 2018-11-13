@@ -219,6 +219,8 @@ Simple list comprehension
 
 ### Statistics
 
+[EDA and ECDF](./Additional/Math/statistical_thinking_in_python/graph_eda.ipynb)
+
 [Conditional Probability](./Additional/Math/conditional_probability.ipynb)
 
 [Covariance and Correlation](./Additional/Math/cov_corr.ipynb)
@@ -233,7 +235,7 @@ Simple list comprehension
 
 ### Ploting
 
-[Bokeh interactiv plot](./Additional/Ploting/bokeh/gapminder_proj/)
+[Bokeh interactive plot](./Additional/Ploting/bokeh/gapminder_proj/)
 
 ![Bokeh plot from gapminder](./Additional/Ploting/bokeh/gapminder_proj/gapminder.gif)
 
