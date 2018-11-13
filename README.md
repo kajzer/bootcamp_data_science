@@ -221,6 +221,8 @@ Simple list comprehension
 
 [EDA and ECDF](./Additional/Math/statistical_thinking_in_python/graph_eda.ipynb)
 
+[Quantitative exploratory data analysis](./Additional/Math/statistical_thinking_in_python/quant_eda.ipynb)
+
 [Conditional Probability](./Additional/Math/conditional_probability.ipynb)
 
 [Covariance and Correlation](./Additional/Math/cov_corr.ipynb)
