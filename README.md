@@ -219,6 +219,8 @@ Simple list comprehension
 
 ### Statistics
 
+[Binomial/Poisson distribution](./Additional/Math/statistical_thinking_in_python/think_probabilistically_discrete.ipynb)
+
 [EDA and ECDF](./Additional/Math/statistical_thinking_in_python/graph_eda.ipynb)
 
 [Quantitative exploratory data analysis](./Additional/Math/statistical_thinking_in_python/quant_eda.ipynb)
