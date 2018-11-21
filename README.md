@@ -219,6 +219,10 @@ Simple list comprehension
 
 ### Statistics
 
+[Bootstraping and calculating confidence intervals](./Additional/Math/statistical_thinking_in_python/bootstrap_confidence_intervals.ipynb)
+
+[Estimating parameters](./Additional/Math/statistical_thinking_in_python/parameter_estimation.ipynb)
+
 [Binomial/Poisson distribution](./Additional/Math/statistical_thinking_in_python/think_probabilistically_discrete.ipynb)
 
 [exponential distribution](./Additional/Math/statistical_thinking_in_python/thinking_probabilistically.ipynb)
