@@ -219,6 +219,10 @@ Simple list comprehension
 
 ### Statistics
 
+[Hypothesis testing](./Additional/Math/statistical_thinking_in_python/hypothesis_testing.ipynb)
+
+[Hypothesis test examples](./Additional/Math/statistical_thinking_in_python/hypothesis_test_examples.ipynb)
+
 [Bootstraping and calculating confidence intervals](./Additional/Math/statistical_thinking_in_python/bootstrap_confidence_intervals.ipynb)
 
 [Estimating parameters](./Additional/Math/statistical_thinking_in_python/parameter_estimation.ipynb)
@@ -306,25 +310,25 @@ More scripts in python can be found **[here](https://github.com/kajzer/python_sc
 
 ### Counting emails
 
-Link: **[counting_emails_db](./counting_emails_db)**  
+Link: **[counting_emails_db](https://github.com/kajzer/python_scripts_training/tree/master/counting_emails_db)**  
 **Used:** SQL, txt file parsing  
 run db_connect.py - connect to db. Parse file for emails (press enter if no file, there is a fall back). The script will add domain names of emails to db.
 
 ### Many to many relational db
 
-Link: **[many_to_many](./many_to_many)**  
+Link: **[many_to_many](https://github.com/kajzer/python_scripts_training/tree/master/many_to_many)**  
 **Used:** SQL, JSON  
 script will parse json format and setup many to many db with courses and attendees with parsed data  
 
 ### Hangman Game
 
-Link: **[Hangman Game](./hangman)**  
+Link: **[Hangman Game](https://github.com/kajzer/python_scripts_training/tree/master/hangman)**  
 **Used:** random, requests, urllib, json, string  
 Game of hangman with a random word taken from an API.
 
 ### Excel file handling
 
-Link: **[excel automation](./excel_automation)**  
+Link: **[excel automation](https://github.com/kajzer/python_scripts_training/tree/master/excel_automation)**  
 **Used:** openpyxl, pprint  
 Script to automate *xlsx files. Requires OpenPyXL (pip3 install openpyxl)  
 xlsx_repo.py - opening, getting sheets, traversing, etc.    
@@ -332,76 +336,76 @@ read_data_from_xlsx.py - read from the census spreadsheet file and calculate sta
 
 ### Itunes tracks parser
 
-Link: **[tracks](./tracks)**  
+Link: **[tracks](https://github.com/kajzer/python_scripts_training/tree/master/tracks)**  
 **Used:** SQL, XML  
 application will read an iTunes export file in XML and produce a properly normalized database
 
 ### PDFs handling
 
-Link: **[pdf_combine](./pdf_combine)**  
+Link: **[pdf_combine](https://github.com/kajzer/python_scripts_training/tree/master/pdf_combine)**  
 **Used:** PyPDF2, os, glob  
 Combine pages without cover page from many *.pdf files into a single *.pdf  
 Requires PyPDF2: sudo pip3 install PyPDF2
 
 ### Linked list
 
-Link: **[linked_list](./linked_list)**  
+Link: **[linked_list](https://github.com/kajzer/python_scripts_training/tree/master/linked_list)**  
 linked list implementation in python
 
 ### Iterable
 
-Link: **[iterable](./iterable)**  
+Link: **[iterable](https://github.com/kajzer/python_scripts_training/tree/master/iterable)**  
 build a Basic Python Iterator
 
 ### Fibonacci sequence generator
 
-Link: **[Fibonacci generator](./fibonacci_generator)**   
+Link: **[Fibonacci generator](https://github.com/kajzer/python_scripts_training/tree/master/fibonacci_generator)**   
 generate first n numbers from Fibonacci series. Can be run as executable ./fibonacci_generator.py [#_of_numbers_in_sequance]. Uses sys.argv with try except block for validation and checking input errors. 
 
 ### Quiz generator
 
-Link: **[quiz generator](./quiz_generator)**  
+Link: **[quiz generator](https://github.com/kajzer/python_scripts_training/tree/master/quiz_generator)**  
 **Used:** file handling  
 Generating different quizzes with multiple choice questions.
 
 ### Twilio API
 
-Link: **[send_sms](./send_sms)**  
+Link: **[send_sms](https://github.com/kajzer/python_scripts_training/tree/master/send_sms)**  
 **Used:** Twilio API  
 Sending sms with twilio API - for this to work script needs valid credentails
 
 ### Google maps from console
 
-Link: **[map it](./mapit)**  
+Link: **[map it](https://github.com/kajzer/python_scripts_training/tree/master/mapit)**  
 Opens google maps to specified location from command line arguments  
 Usage example: ./mapit.py 870 Valencia St, San Francisco, CA94110
 Need to install: pip install pyperclip
 
 ### Get weather from command line
 
-Link: **[get weather](./get_weather)**  
+Link: **[get weather](https://github.com/kajzer/python_scripts_training/tree/master/get_weather)**  
 **Used:** json, requests, sys, urllib  
 Gets weather from openweathermap (only sample) for current location provided in command line arguments (needs API key - in this form always gets London)  
 Usage: python3 get_weather.py London
 
 ### Check profanity in txt file
 
-Link: **[profanity_checker](./profanity_checker)**  
+Link: **[profanity_checker](https://github.com/kajzer/python_scripts_training/tree/master/profanity_checker)**  
 **Used:** url encode  
 Simple script to read from a txt file and hit url with contents to check if text contains curse words.
 
 ### Console logging
 
-Link: **[logging_to_consoe](./logging_to_console)**   
+Link: **[logging_to_consoe](https://github.com/kajzer/python_scripts_training/tree/master/logging_to_console)**   
 Logging every step of factorial to console
 
 ### Copy passwords to clipboard
 
-Link: **[passwords_copy](./passwords_copy)**  
+Link: **[passwords_copy](https://github.com/kajzer/python_scripts_training/tree/master/passwords_copy)**  
 Insecure password holder. Will copy to clipboard password for given account. Usage: ./pw.py [some_account]. To run as executable permissions are required: sudo chmod +x pw.py  
 
 ### Pomodoro and file rernaming
 
-Link: **[pomodoro_rename_files](./pomodoro_rename_files)**  
+Link: **[pomodoro_rename_files](https://github.com/kajzer/python_scripts_training/tree/master/pomodoro_rename_files)**  
   break_time.py - simple program to wait and open up a browser with provided link  
   rename_photos.py - script to rename files - remove numbers from the beggining of a file name
