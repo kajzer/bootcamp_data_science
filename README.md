@@ -219,6 +219,8 @@ Simple list comprehension
 
 ### Statistics
 
+[Hypothesis testing, linear regression](./Additional/Math/finch_beaks/finch_beaks.ipynb)
+
 [Hypothesis testing](./Additional/Math/statistical_thinking_in_python/hypothesis_testing.ipynb)
 
 [Hypothesis test examples](./Additional/Math/statistical_thinking_in_python/hypothesis_test_examples.ipynb)
@@ -283,6 +285,8 @@ Simple list comprehension
 
 ### SQL
 
+[Joining data in PostgreSQL](./Additional/SQL/joining_data_postgresql/int_joins.ipynb)
+
 [SQLalchemy - Connecting, populating, querying db](./Additional/SQL/dc_intr_db/final_proj_db.ipynb)
 
 [SQLalchemy - Creating and Manipulating Databases](./Additional/SQL/dc_intr_db/creating_db.ipynb)
@@ -292,6 +296,8 @@ Simple list comprehension
 [SQLalchemy filtering, ordering, group by](./Additional/SQL/dc_intr_db/filtering.ipynb)
 
 [PostgreSQL JOIN's with SQLalchemy and pandas](./Additional/SQL/JOIN_udacity/postgresql_join.ipynb)
+
+[PostgreSQL Aggregations's](./Additional/SQL/JOIN_udacity/sql_aggregations.ipynb)
 
 [SQLalchemy intro](./Additional/SQL/dc_intr_db/db_intro_sqlalchemy.ipynb)
 
