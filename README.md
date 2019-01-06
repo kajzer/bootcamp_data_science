@@ -135,6 +135,10 @@ Simple list comprehension
 
 ## Aditional DataScience scripts
 
+### Machine Learning
+
+[Implementation of k-nearest-neighbors for predicting house prices according to geolocation](./Additional/Machine_learning/tml/k-nearest-neighbors.ipynb)
+
 ### Projects
 
 #### DataFrame/Pandas manipulation and visualization
